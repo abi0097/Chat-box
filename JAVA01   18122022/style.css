@@ -1,0 +1,94 @@
+body {
+  font-family: sans-serif;
+  background-color: #e7ebee;
+  width: 100%;
+  height: 800px;
+  padding: 10px;
+}
+
+body h1 {
+  padding-top: 20px;
+  text-align: center;
+  color: blueviolet;
+}
+.top label {
+  margin-left: 100px;
+  font-size: 20px;
+}
+#input {
+  margin-top: 10px;
+  margin-left: 100px;
+  border-radius: 10px;
+  border: 3px solid gray;
+  resize: none;
+}
+#submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  color: #007bff;
+  margin-top: 10px;
+  width: 100px;
+  height: 40px;
+  background-color: #fff;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+i {
+  gap: 50px;
+}
+#posts {
+  width: 60%;
+  margin-left: 120px;
+  font-size: 20px;
+}
+
+#posts div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.option {
+  display: flex;
+  gap: 15px;
+}
+i {
+  cursor: pointer;
+}
+#msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+.fa-pencil-square-o {
+  color: blue;
+  font-size: 30px;
+  padding: 5px;
+}
+.fa-pencil-square-o:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.fa-trash {
+  color: red;
+  font-size: 30px;
+  padding: 5px;
+}
+.fa-trash:hover {
+  background-color: #000;
+  color: #fff;
+}
